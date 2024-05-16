@@ -1,0 +1,4 @@
+
+- job_name: 'nodejs-app'
+  static_configs:
+    - targets: ['<nodejs-app-service>:3000']
